@@ -542,6 +542,52 @@ input[type=checkbox] {
   width: 340px;
   margin-right: 2%;
 }
+.checkbox-group{
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.checkbox-group:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.checkbox-group > span{
+  float: left;
+}
+.custom-checkbox{
+	display:inline-block;
+  line-height: 20px;
+  margin-right: 10px;
+  margin-top: 13px;
+}
+.custom-checkbox input[type="checkbox"]{
+	display: none;
+
+}
+.custom-checkbox input[type="checkbox"] + label{
+
+  display: inline-block;
+  float: left;
+  width: 45px;
+  height: 45px;
+  border: 1px rgb(171, 229, 219) solid;
+  border-radius: 2px;
+}
+.custom-checkbox input[type="checkbox"] + label:after{
+
+  content: '';
+  width: 40px;
+  height: 40px;
+  margin: 2px auto;
+  background: url(../images/form_ok.jpg) no-repeat center/100%;
+  display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label:after{
+  display: block;
+}
+
+/*------------------------------------------------------*/
 
 .agree p {
   width: 280px;
