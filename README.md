@@ -1,6 +1,9 @@
 # SitOnOurChair-Website
 My first project built during bootcamp.It is based on PSD file. It's a website where You can buy chairs. There is also calculator,where you can choose type of chair or cloth, and the contact form.
 
+## Live preview
+https://tomaszjurek.github.io/SitOnOurChair-Website/
+
 ## Getting Started
 The only thing You need is browser.
 
